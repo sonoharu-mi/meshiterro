@@ -1,4 +1,4 @@
-class UsersController < ApplicationController
+class Public::UsersController < ApplicationController
   before_action :is_matcing_login_user, only: [:edit, :update]
 
   def show
